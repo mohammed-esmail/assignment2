@@ -40,7 +40,7 @@ a:link, a:visited, a:hover, a:active {
 
 .image-content {
   position: relative;
-  background: url(images/blackandwhite.jpg) center fixed;
+  background: url(images/blackandwhite.jpg) no-repeat center center fixed;
   background-size: cover;
  }
 .site-hashtag, .content  {
@@ -51,7 +51,7 @@ a:link, a:visited, a:hover, a:active {
 .site-hashtag {
   padding-top: 100px;
   min-height: 340px;
-  text-align: center;
+  text-align:center;
 }
 .content {
   color: #747474;
@@ -72,7 +72,7 @@ a:link, a:visited, a:hover, a:active {
 /* SPECIAL */
 .image-caption {
   color: #d9dee2;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 60px;
 }
 .button, .button:visited, .button-dark {
@@ -163,6 +163,8 @@ a.sitename, a:visited.sitename {
 .nav-menu a {
   text-decoration: none;
 }
+
+
 .show, .hide {
   display: none;
   padding-left: 15px;
@@ -188,7 +190,7 @@ a.sitename, a:visited.sitename {
     display: none; 
     width: 100%;
     margin-top: 50px;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9);
   }
   .nav-menu li {
     display: block;
@@ -211,12 +213,35 @@ a.sitename, a:visited.sitename {
   #menu:target .hide, #menu:target .nav-menu {
     display: inline-block;
   }
+
+  .image-content {
+   background: url(images/blackandwhitemobile.jpg) no-repeat center left;
+   background-size: cover;
+   background-position: center left;
+   margin-top: 10px
+   
+  }
+
+  .site-hashtag {
+  padding-top: 250px;
+  min-height: 100px;
+  text-align:center;  
+}
+
+.image-caption {
+  
+}
+
+
 }
 
 @media only screen and (max-width: 220px) {
   .sitelogo, .show, .hide {
     font-size: 14px;
   }
+
+ 
+
 }
 
 
