@@ -81,8 +81,10 @@ a:link, a:visited, a:hover, a:active {
   margin: 50px 10px 30px 10px;
   padding: 10px;
   font-family: "Signika", sans-serif;
+  /*background-color: rgba(50, 50, 50, 0.2);*/
+  
   color: #ffffff;
-  /*background-color: transparent;*/
+  background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 3px;
   text-transform: capitalize;
@@ -91,8 +93,8 @@ a:link, a:visited, a:hover, a:active {
 }
 .button-dark, .button-dark:visited {
   margin: 20px 10px 30px 0;
-  color: #464646;
-  border-color: #464646;
+  color:#ffffff;
+  border-color: #ffffff;
 
 }
 .button:hover, .button-dark:hover {
@@ -123,6 +125,7 @@ a:link, a:visited, a:hover, a:active {
  /*Content space after the nav bar*/
 .image-content {
   margin-top: 50px;
+  height: 100%;
 }
 
 /* Navigation bar */
