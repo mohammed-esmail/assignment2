@@ -11,7 +11,6 @@ body {
     font: normal 18px/22px "Varela Round", sans-serif;
     background-color: #e9ffff;
     color: #2e2e2e;
-
 }
 
 h1, h2 {
@@ -31,12 +30,11 @@ h2 {
     margin-bottom: -20px;
 }
 
-.recipe-cat{
-    background-color: red;
+.recipe-cat {
     padding: 10px;
     color: white;
     background-color: rgba(51, 51, 51, 0.9);
-    border-radius: 20px ;
+    border-radius: 20px;
 }
 
 p {
@@ -230,16 +228,12 @@ a.sitename, a:visited.sitename {
 
 /* The Modal (background) */
 .modal {
-
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
     left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    top: 10%;
+    height: 90%; /* Full height */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 
@@ -247,13 +241,15 @@ a.sitename, a:visited.sitename {
 
 /* Modal Content */
 .modal-content {
+    width: 80%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: scroll;
     border-radius: 10px;
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -308,9 +304,8 @@ a.sitename, a:visited.sitename {
 
 }
 
-.modal-body {
-
-    padding: 2px 16px;
+.modal-body, ol {
+    padding: 10px 16px;
 
 }
 
@@ -332,7 +327,6 @@ a.sitename, a:visited.sitename {
 
 .hover-overlay img {
     max-width: 100%;
-
 
 }
 
@@ -400,9 +394,6 @@ a.sitename, a:visited.sitename {
 
 }
 
-
-
-
 .nutrition {
     margin: 5px auto 0;
     width: 100%;
@@ -420,6 +411,7 @@ a.sitename, a:visited.sitename {
     display: block;
     padding: 3px 0;
 }
+
 .nutrition-value {
     line-height: 18px;
     color: #767676;
@@ -431,14 +423,32 @@ a.sitename, a:visited.sitename {
     padding: 2px 0 1px;
 }
 
-.nutrition>li {
+.nutrition > li {
     letter-spacing: 0;
     display: inline-block;
     text-align: center;
     margin: 0 5px 8px 0;
     min-width: 67px;
 }
+
 /*test*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
 
 @media only screen and (max-width: 800px) {
     .menu {
