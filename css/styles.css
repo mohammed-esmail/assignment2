@@ -11,6 +11,7 @@ body {
     font: normal 18px/22px "Varela Round", sans-serif;
     background-color: #e9ffff;
     color: #2e2e2e;
+
 }
 
 h1, h2 {
@@ -28,6 +29,14 @@ h2 {
     font-size: 24px;
     line-height: 33px;
     margin-bottom: -20px;
+}
+
+.recipe-cat{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.9);
+    border-radius: 20px ;
 }
 
 p {
@@ -103,7 +112,7 @@ a:link, a:visited, a:hover, a:active {
     color: #ffffff;
     background-color: transparent;
     border: 2px solid #ffffff;
-    border-radius: 3px;
+    border-radius: 20px;
     text-transform: capitalize;
     text-align: center;
     transition: all 0.1s ease;
@@ -221,6 +230,7 @@ a.sitename, a:visited.sitename {
 
 /* The Modal (background) */
 .modal {
+
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -232,10 +242,12 @@ a.sitename, a:visited.sitename {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
 }
 
 /* Modal Content */
 .modal-content {
+    border-radius: 10px;
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -247,6 +259,7 @@ a.sitename, a:visited.sitename {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+
 }
 
 /* Add Animation */
@@ -288,19 +301,24 @@ a.sitename, a:visited.sitename {
 }
 
 .modal-header {
+    border-radius: 10px 10px 0 0;
     padding: 20px 16px;
-    background-color: #5cb85c;
+    background-color: rgba(51, 51, 51, 0.9);
     color: white;
+
 }
 
 .modal-body {
+
     padding: 2px 16px;
+
 }
 
 /*test*/
 
 .hover-overlay * {
     box-sizing: border-box;
+
 }
 
 .hover-overlay {
@@ -309,10 +327,12 @@ a.sitename, a:visited.sitename {
     overflow: hidden;
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 .hover-overlay img {
     max-width: 100%;
+
 
 }
 
@@ -373,12 +393,51 @@ a.sitename, a:visited.sitename {
     transform: rotateZ(360deg);
 }
 
-.recipe-title {
-    background-color: rgba(51, 51, 51, 0.9);
+.recipe-cat-veg {
+    background-color: forestgreen;
     color: white;
     padding: 15px;
+
 }
 
+
+
+
+.nutrition {
+    margin: 5px auto 0;
+    width: 100%;
+    letter-spacing: -3px;
+}
+
+.nutrition-label {
+    line-height: 18px;
+    font-style: normal;
+    font-size: 11px;
+    background: #eec3b0;
+    border-radius: 10px 10px 0 0;
+    color: #333;
+    position: relative;
+    display: block;
+    padding: 3px 0;
+}
+.nutrition-value {
+    line-height: 18px;
+    color: #767676;
+    font-style: normal;
+    display: block;
+    background: #fff;
+    font-size: 11px;
+    border-radius: 0 0 10px 10px;
+    padding: 2px 0 1px;
+}
+
+.nutrition>li {
+    letter-spacing: 0;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px 8px 0;
+    min-width: 67px;
+}
 /*test*/
 
 @media only screen and (max-width: 800px) {
