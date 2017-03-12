@@ -219,6 +219,8 @@ a.sitename, a:visited.sitename {
 }
 
 .cell img {
+    height: auto;
+    width:  auto;
     display: block;
 }
 
