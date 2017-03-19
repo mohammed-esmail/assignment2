@@ -30,6 +30,10 @@ h2 {
     margin-bottom: -20px;
 }
 
+.modal-body h3 {
+    padding-top: 20px;
+}
+
 .recipe-cat {
     padding: 10px;
     color: white;
@@ -37,7 +41,7 @@ h2 {
     border-radius: 20px;
 }
 
-p {
+.method li {
     margin: 20px 0;
 }
 
@@ -216,11 +220,17 @@ a.sitename, a:visited.sitename {
 .container h2 {
     font-size: 40px;
     text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    margin-top: 40px;
+
 }
 
 .cell img {
     height: auto;
-    width:  auto;
+    width: auto;
     display: block;
 }
 
@@ -313,11 +323,6 @@ a.sitename, a:visited.sitename {
 
 /*test*/
 
-.hover-overlay * {
-    box-sizing: border-box;
-
-}
-
 .hover-overlay {
     position: relative;
     display: inline-block;
@@ -395,6 +400,12 @@ a.sitename, a:visited.sitename {
     padding: 15px;
 
 }
+.recipe-cat-fish {
+    background-color: #eec3b0;
+    color: white;
+    padding: 15px;
+
+}
 
 .nutrition {
     margin: 5px auto 0;
@@ -439,7 +450,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
+    margin-top: 20px;
     border: 1px solid #ddd;
+
 }
 
 th, td {
@@ -461,7 +474,7 @@ tr:nth-child(even) {
     .sitelogo {
         position: absolute;
         top: 0;
-        left: 15px;
+        left: 10px;
         margin-left: 0px;
     }
 
@@ -518,6 +531,9 @@ tr:nth-child(even) {
 @media only screen and (max-width: 220px) {
     .sitelogo, .show, .hide {
         font-size: 14px;
+    }
+    .grid {
+        margin-top: 20px;
     }
 
 }
