@@ -55,6 +55,7 @@ a:link, a:visited, a:hover, a:active {
 
 .image-content {
     position: relative;
+
     background: url(images/blackandwhite.jpg) no-repeat center center fixed;
     background-size: cover;
 }
@@ -88,19 +89,35 @@ a:link, a:visited, a:hover, a:active {
     text-transform: uppercase;
 }
 
-/*.content  h2 a:link, .content  h2 a:visited  {
-  color: #464646;
-  transition: color 0.1s ease;
-}
-.content  h2 a:hover {
-  color: #000000;
-  transition: color 0.3s ease;
-}*/
+
 /* SPECIAL */
 .image-caption {
     color: #d9dee2;
     margin-top: 50px;
     margin-bottom: 60px;
+}
+
+.site-about {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    color: #747474;
+}
+
+.site-about h1 {
+    text-align: center;
+    color: #384e56;
+    margin-top: 60px;
+}
+
+.about-us{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    color: white;
+    line-height: 1.5em;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .button, .button:visited, .button-dark {
@@ -136,7 +153,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .button-dark:hover {
-    color: #ffffff;
+    color: skyblue;
     background-color: rgba(70, 70, 70, 0.9);
 }
 
@@ -492,6 +509,8 @@ th, td {
 tr:nth-child(even) {
     background-color: #f2f2f2
 }
+
+
 
 @media only screen and (max-width: 800px) {
     .menu {
