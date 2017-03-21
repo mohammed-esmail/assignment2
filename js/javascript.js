@@ -1,17 +1,25 @@
 (function () {
 
     // Get the modal
-    var modal = document.getElementById('myModal');
+    var modal = document.getElementById('modal_1');
+    var modal2 = document.getElementById('modal_2');
 
     // Get the button that opens the modal
     var image = document.getElementById("modal1");
+    var image2 = document.getElementById("modal2");
+
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
+    var span2 = document.getElementsByClassName("close")[0];
 
     // When the user clicks the button, open the modal
     image.onclick = function () {
         modal.style.display = "block"; //opens modal
+
+    }
+    image2.onclick = function () {
+        modal2.style.display = "block"; //opens modal
 
     }
 
@@ -20,12 +28,20 @@
         modal.style.display = "none"; //hides modal
 
     }
+    span2.onclick = function () {
+        modal2.style.display = "none"; //hides modal
+
+    }
+
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
-        if (event.target == modal) {
+        if (event.target == modal || event.target == modal2 ) {
             modal.style.display = "none"; //hides modal
             image.style.display = "block"//shows button
+            modal2.style.display = "none"; //hides modal
+            image2.style.display = "block"//shows button
+
         }
     }
 

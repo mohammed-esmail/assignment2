@@ -406,6 +406,34 @@ a.sitename, a:visited.sitename {
     padding: 15px;
 
 }
+.recipe-cat-meat {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+
+}
+
+.recipe-cat-veg-overlay {
+    background-color: forestgreen;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+
+}
+.recipe-cat-fish-overlay {
+    background-color: #eec3b0;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+
+}
+.recipe-cat-meat-overlay {
+    background-color: #333;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+
+}
 
 .nutrition {
     margin: 5px auto 0;
