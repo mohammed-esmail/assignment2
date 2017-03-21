@@ -7,6 +7,9 @@
     var modal4 = document.getElementById('modal_4');
     var modal5 = document.getElementById('modal_5');
     var modal6 = document.getElementById('modal_6');
+    var modal7 = document.getElementById('modal_7');
+    var modal8 = document.getElementById('modal_8');
+    var modal9 = document.getElementById('modal_9');
 
     // Get the button that opens the modal
     var image = document.getElementById("modal1");
@@ -15,7 +18,9 @@
     var image4 = document.getElementById("modal4");
     var image5 = document.getElementById("modal5");
     var image6 = document.getElementById("modal6");
-
+    var image7 = document.getElementById("modal7");
+    var image8 = document.getElementById("modal8");
+    var image9 = document.getElementById("modal9");
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -24,6 +29,9 @@
     var span4 = document.getElementsByClassName("close")[0];
     var span5 = document.getElementsByClassName("close")[0];
     var span6 = document.getElementsByClassName("close")[0];
+    var span7 = document.getElementsByClassName("close")[0];
+    var span8 = document.getElementsByClassName("close")[0];
+    var span9 = document.getElementsByClassName("close")[0];
 
     // When the user clicks the button, open the modal
     image.onclick = function () {
@@ -48,6 +56,18 @@
     }
     image6.onclick = function () {
         modal6.style.display = "block"; //opens modal
+
+    }
+    image7.onclick = function () {
+        modal7.style.display = "block"; //opens modal
+
+    }
+    image8.onclick = function () {
+        modal8.style.display = "block"; //opens modal
+
+    }
+    image9.onclick = function () {
+        modal9.style.display = "block"; //opens modal
 
     }
 
@@ -76,12 +96,25 @@
         modal6.style.display = "none"; //hides modal
 
     }
+    span7.onclick = function () {
+        modal7.style.display = "none"; //hides modal
+
+    }
+    span8.onclick = function () {
+        modal8.style.display = "none"; //hides modal
+
+    }
+    span9.onclick = function () {
+        modal9.style.display = "none"; //hides modal
+
+    }
 
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
         if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4
-        || event.target == modal5 || event.target == modal6) {
+        || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8
+        || event.target == modal9) {
             modal.style.display = "none"; //hides modal
             image.style.display = "block"//shows button
             modal2.style.display = "none"; //hides modal
@@ -94,7 +127,12 @@
             image5.style.display = "block"//shows button
             modal6.style.display = "none"; //hides modal
             image6.style.display = "block"//shows button
-
+            modal7.style.display = "none"; //hides modal
+            image7.style.display = "block"//shows button
+            modal8.style.display = "none"; //hides modal
+            image8.style.display = "block"//shows button
+            modal9.style.display = "none"; //hides modal
+            image9.style.display = "block"//shows button
         }
     }
 
