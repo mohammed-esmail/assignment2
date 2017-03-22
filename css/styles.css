@@ -73,11 +73,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .site-hashtag {
-
-    padding-top: 100px;
-    min-height: 340px;
-    text-align: center;
-}
+     padding-top: 100px;
+     min-height: 340px;
+     text-align: center;
+ }
 
 .content {
     color: #747474;
@@ -104,10 +103,14 @@ a:link, a:visited, a:hover, a:active {
     color: #747474;
 }
 
-.site-about h1 {
+.site-about h1{
     text-align: center;
     color: #384e56;
     margin-top: 60px;
+}
+
+.contact-us {
+    color: #384e56;
 }
 
 .about-us{
@@ -230,7 +233,7 @@ a.sitename, a:visited.sitename {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 980px;
     padding: 0 1rem;
 }
 
@@ -369,7 +372,6 @@ a.sitename, a:visited.sitename {
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
-    padding: 15px;
     -moz-transition: all 0.4s ease-in-out 0s;
     -webkit-transition: all 0.4s ease-in-out 0s;
     -ms-transition: all 0.4s ease-in-out 0s;
@@ -511,6 +513,44 @@ tr:nth-child(even) {
 }
 
 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #333;
+}
+
+
+.container-contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+.contact{
+    padding-top: 10px;
+}
 
 @media only screen and (max-width: 800px) {
     .menu {
