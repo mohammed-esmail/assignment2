@@ -45,7 +45,7 @@
         <h1>#DeliciousFood</h1>
         <p class="image-caption">Minimalistic, Healthy &amp; Clean Recipes</p>
         <p><a class="button-dark" href="#contact-us">Contact us <i class="fa fa-arrow-down"
-                                                                     aria-hidden="true"></i></a>
+                                                                   aria-hidden="true"></i></a>
     </div>
 </section>
 
@@ -55,7 +55,7 @@
     <div class="grid">
 
         <div class="cell">
-            <h1 class="contact-us" id="contact-us">Contact Us</h1>
+            <h1 class="contact-us" id="contact-us">Information Point</h1>
             <p class="contact">If you would like to request any recipes, please feel free to contact us.
             </p>
 
@@ -63,10 +63,15 @@
                 We are also taking registrations for our cooking master class, please enter
                 your details and we will be in touch with a welcome pack.
             </p>
+            <p class="contact">
+                If you are registered on our cooking masterclass course, you can find our location
+                using google maps to attend your class.
+            </p>
         </div>
 
 
         <div class="cell">
+            <h1 class="contact-us">Contact us</h1>
             <form class="container-contact" action="/action_page.php">
 
                 <label for="fname">First Name</label>
@@ -75,19 +80,42 @@
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                <label for="subject">Subject</label>
+                <label for="subject">Message</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
                 <input type="submit" value="Submit">
 
             </form>
         </div>
+        <div class="cell">
+            <h1 class="contact-us">Find us</h1>
+            <div id="map"></div>
+        </div>
 
     </div>
+</div>
+
+<footer class="footer-social-icons">
+
+    <h3>Follow us on</h3>
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+
+</footer>
 
 
-    <script src="https://use.fontawesome.com/ed2ca076ee.js"></script>
-    <script src="js/javascript.js"></script>
+<script src="js/javascript.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKNenyAAcludfVLyjbWolbAos8L5sD3Jo&callback=initMap"></script>
+<script src="https://use.fontawesome.com/ed2ca076ee.js"></script>
+
+
 
 </body>
 

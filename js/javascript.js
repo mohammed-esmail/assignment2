@@ -24,90 +24,56 @@
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
-    var span2 = document.getElementsByClassName("close")[0];
-    var span3 = document.getElementsByClassName("close")[0];
-    var span4 = document.getElementsByClassName("close")[0];
-    var span5 = document.getElementsByClassName("close")[0];
-    var span6 = document.getElementsByClassName("close")[0];
-    var span7 = document.getElementsByClassName("close")[0];
-    var span8 = document.getElementsByClassName("close")[0];
-    var span9 = document.getElementsByClassName("close")[0];
+
 
     // When the user clicks the button, open the modal
     image.onclick = function () {
         modal.style.display = "block"; //opens modal
 
-    }
+    };
     image2.onclick = function () {
         modal2.style.display = "block"; //opens modal
 
-    }
+    };
     image3.onclick = function () {
         modal3.style.display = "block"; //opens modal
 
-    }
+    };
     image4.onclick = function () {
         modal4.style.display = "block"; //opens modal
 
-    }
+    };
     image5.onclick = function () {
         modal5.style.display = "block"; //opens modal
 
-    }
+    };
     image6.onclick = function () {
         modal6.style.display = "block"; //opens modal
 
-    }
+    };
     image7.onclick = function () {
         modal7.style.display = "block"; //opens modal
 
-    }
+    };
     image8.onclick = function () {
         modal8.style.display = "block"; //opens modal
 
-    }
+    };
     image9.onclick = function () {
         modal9.style.display = "block"; //opens modal
 
-    }
+    };
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
         modal.style.display = "none"; //hides modal
 
-    }
-    span2.onclick = function () {
+    };
+
+    span.onclick = function () {
         modal2.style.display = "none"; //hides modal
 
-    }
-    span3.onclick = function () {
-        modal3.style.display = "none"; //hides modal
-
-    }
-    span4.onclick = function () {
-        modal4.style.display = "none"; //hides modal
-
-    }
-    span5.onclick = function () {
-        modal5.style.display = "none"; //hides modal
-
-    }
-    span6.onclick = function () {
-        modal6.style.display = "none"; //hides modal
-
-    }
-    span7.onclick = function () {
-        modal7.style.display = "none"; //hides modal
-
-    }
-    span8.onclick = function () {
-        modal8.style.display = "none"; //hides modal
-
-    }
-    span9.onclick = function () {
-        modal9.style.display = "none"; //hides modal
-
-    }
+    };
 
 
     // When the user clicks anywhere outside of the modal, close it
@@ -162,3 +128,16 @@ $(document).ready(function () {
         }
     });
 });
+
+
+function initMap() {
+    var Ll = {lat: 52.629192, lng: -1.140291};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: Ll
+    });
+    var marker = new google.maps.Marker({
+        position: Ll,
+        map: map
+    });
+}
