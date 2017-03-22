@@ -11,6 +11,11 @@
     var modal8 = document.getElementById('modal_8');
     var modal9 = document.getElementById('modal_9');
 
+
+
+
+
+
     // Get the button that opens the modal
     var image = document.getElementById("modal1");
     var image2 = document.getElementById("modal2");
@@ -21,6 +26,8 @@
     var image7 = document.getElementById("modal7");
     var image8 = document.getElementById("modal8");
     var image9 = document.getElementById("modal9");
+
+
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -64,6 +71,8 @@
 
     };
 
+
+
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
         modal.style.display = "none"; //hides modal
@@ -79,8 +88,8 @@
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
         if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4
-        || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8
-        || event.target == modal9) {
+            || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8
+            || event.target == modal9) {
             modal.style.display = "none"; //hides modal
             image.style.display = "block"//shows button
             modal2.style.display = "none"; //hides modal
@@ -99,11 +108,15 @@
             image8.style.display = "block"//shows button
             modal9.style.display = "none"; //hides modal
             image9.style.display = "block"//shows button
+
         }
     }
 
 
+
+
 }());
+
 
 $(document).ready(function () {
 
@@ -128,6 +141,41 @@ $(document).ready(function () {
         }
     });
 });
+
+
+function validateForm() {
+
+    var firstName = document.forms["form"]["fname"].value;
+    if (firstName == "") {
+        alert("Please enter your first name");
+        return false;
+    }
+
+    var lastName = document.forms["form"]["lname"].value;
+    if (lastName == "") {
+        alert("Please enter your last name");
+        return false;
+    }
+
+    var email = document.forms["form"]["email"].value;
+    var at_pos = email.indexOf("@");
+    var dot_pos = email.lastIndexOf(".");
+    if (at_pos<1 || dot_pos<at_pos+2 || dot_pos+2>=email.length) {
+        alert("Please enter a valid email address");
+        return false;
+    }
+    var message = document.forms["form"]["message"].value;
+    if (message == "") {
+        alert("Please enter a message");
+        return false;
+    }
+
+
+    else {
+        alert("Thanks" + " " + firstName + " " + lastName + " " + "we will be in touch shortly!");
+
+    }
+}
 
 
 function initMap() {

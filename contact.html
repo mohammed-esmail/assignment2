@@ -72,7 +72,7 @@
 
         <div class="cell">
             <h1 class="contact-us">Contact us</h1>
-            <form class="container-contact" action="/action_page.php">
+            <form name="form" class="container-contact" id="contact-modal" onsubmit="return validateForm()">
 
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -80,13 +80,17 @@
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="Email"/>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.."></textarea>
 
                 <input type="submit" value="Submit">
 
             </form>
         </div>
+
         <div class="cell">
             <h1 class="contact-us">Find us</h1>
             <div id="map"></div>
@@ -114,7 +118,6 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKNenyAAcludfVLyjbWolbAos8L5sD3Jo&callback=initMap"></script>
 <script src="https://use.fontawesome.com/ed2ca076ee.js"></script>
-
 
 
 </body>
