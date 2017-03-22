@@ -12,10 +12,6 @@
     var modal9 = document.getElementById('modal_9');
 
 
-
-
-
-
     // Get the button that opens the modal
     var image = document.getElementById("modal1");
     var image2 = document.getElementById("modal2");
@@ -26,7 +22,6 @@
     var image7 = document.getElementById("modal7");
     var image8 = document.getElementById("modal8");
     var image9 = document.getElementById("modal9");
-
 
 
     // Get the <span> element that closes the modal
@@ -72,7 +67,6 @@
     };
 
 
-
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
         modal.style.display = "none"; //hides modal
@@ -111,8 +105,6 @@
 
         }
     }
-
-
 
 
 }());
@@ -160,7 +152,7 @@ function validateForm() {
     var email = document.forms["form"]["email"].value;
     var at_pos = email.indexOf("@");
     var dot_pos = email.lastIndexOf(".");
-    if (at_pos<1 || dot_pos<at_pos+2 || dot_pos+2>=email.length) {
+    if (at_pos < 1 || dot_pos < at_pos + 2 || dot_pos + 2 >= email.length) {
         alert("Please enter a valid email address");
         return false;
     }

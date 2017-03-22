@@ -71,10 +71,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .site-hashtag {
-     padding-top: 100px;
-     min-height: 340px;
-     text-align: center;
- }
+    padding-top: 100px;
+    min-height: 340px;
+    text-align: center;
+}
 
 .content {
     color: #747474;
@@ -85,7 +85,6 @@ a:link, a:visited, a:hover, a:active {
     margin-top: 60px;
     text-transform: uppercase;
 }
-
 
 /* SPECIAL */
 .image-caption {
@@ -101,7 +100,7 @@ a:link, a:visited, a:hover, a:active {
     color: #747474;
 }
 
-.site-about h1{
+.site-about h1 {
     text-align: center;
     color: #384e56;
     margin-top: 60px;
@@ -111,7 +110,7 @@ a:link, a:visited, a:hover, a:active {
     color: #384e56;
 }
 
-.about-us{
+.about-us {
     width: 90%;
     max-width: 960px;
     margin: 0 auto;
@@ -418,12 +417,14 @@ a.sitename, a:visited.sitename {
     padding: 15px;
 
 }
+
 .recipe-cat-fish {
     background-color: #eec3b0;
     color: white;
     padding: 15px;
 
 }
+
 .recipe-cat-meat {
     background-color: #333;
     color: white;
@@ -438,6 +439,7 @@ a.sitename, a:visited.sitename {
     padding: 15px;
 
 }
+
 .recipe-cat-fish-overlay {
     background-color: #eec3b0;
     border-radius: 10px;
@@ -445,6 +447,7 @@ a.sitename, a:visited.sitename {
     padding: 15px;
 
 }
+
 .recipe-cat-meat-overlay {
     background-color: #333;
     border-radius: 10px;
@@ -511,8 +514,6 @@ tr:nth-child(even) {
     background-color: #f2f2f2
 }
 
-
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -522,7 +523,6 @@ input[type=text], select, textarea {
     margin-top: 6px;
     resize: vertical;
 }
-
 
 input[type=submit] {
     background-color: #4CAF50;
@@ -534,41 +534,36 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
 input[type=submit]:hover {
     background-color: #333;
 }
-
 
 .container-contact {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 
-
 }
 
-.contact{
+.contact {
     padding-top: 10px;
 }
-.container-contact textarea {
-   height: 135px;
 
+.container-contact textarea {
+    height: 135px;
 
 }
-
 
 #map {
     height: 443px;
     width: 100%;
 }
 
-
 .footer-social-icons {
     text-align: center;
-    display:block;
-    left:0;
-    right:0;
+    display: block;
+    left: 0;
+    right: 0;
     margin: 0 auto;
     padding: 2rem;
     color: white;
@@ -576,101 +571,173 @@ input[type=submit]:hover {
 }
 
 .footer ul {
-    padding:0;
+    padding: 0;
     list-style: none;
 }
 
 .social-icon {
     color: #fff;
 }
+
 ul.social-icons {
     margin-top: 10px;
 }
+
 .social-icons li {
     vertical-align: top;
     display: inline;
     height: 100px;
 }
+
 .social-icons a {
     color: #fff;
     text-decoration: none;
 }
+
 .fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-facebook:hover {
     background-color: #3d5b99;
 }
+
 .fa-twitter {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-twitter:hover {
     background-color: #00aced;
 }
+
 .fa-rss {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-rss:hover {
     background-color: #eb8231;
 }
+
 .fa-youtube {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-youtube:hover {
     background-color: #e64a41;
 }
+
 .fa-linkedin {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-linkedin:hover {
     background-color: #0073a4;
 }
+
 .fa-google-plus {
-    padding:10px 9px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 9px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
 }
+
 .fa-google-plus:hover {
     background-color: #e25714;
 }
 
 /*end footer*/
 
+/*slider*/
 
+.slider-holder {
+    max-width: 800px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkgoldenrod;;
+}
+
+.image-holder {
+    width: 2400px;
+    /*height: 400px;*/
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#slider-image-1:target ~ .image-holder {
+    left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder {
+    left: -800px;
+}
+
+#slider-image-3:target ~ .image-holder {
+    left: -1600px;
+}
+
+.button-holder {
+    position: relative;
+    top: -40px;
+}
+
+.slider-change {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+}
+
+/*slider end*/
 
 @media only screen and (max-width: 800px) {
     .menu {
@@ -738,6 +805,7 @@ ul.social-icons {
     .sitelogo, .show, .hide {
         font-size: 14px;
     }
+
     .grid {
         margin-top: 20px;
     }
