@@ -181,3 +181,7 @@ function initMap() {
         map: map
     });
 }
+
+function swapStyle(sheet){
+    document.getElementById('pagestyle').setAttribute('href', sheet);
+}
