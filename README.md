@@ -42,10 +42,17 @@ This section outlines how the PARC principles have been used in the implementati
 - **Repetition** - In order to provide consistency, repeated themes have been implemented within the design of the website. Text sizes are proportionate and of the same size, the main page theme is repeated throughout all of the pages. Buttons are all classed to the same css styles. Therefore, this provides a pleasing and warming environment for the user.
 - **Contrast** - Contrast provides the user with a pleasing atmosphere, the navigation bar is dark, contrasted with white text and orange hover over properties. The main body of the website is split up with a medium to dark image, whilst implementing the rest of the body with a lighter appearance.
 
-## 4. Conclusion
+## 4. W3 Validation
+This section provides the links to all the W3 validated pages
+[Homepage-Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmohammed-esmail.github.io%2Fassignment2%2Findex.html)
+[Recipes-Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmohammed-esmail.github.io%2Fassignment2%2Frecipes.html)
+[Gallery-Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmohammed-esmail.github.io%2Fassignment2%2Fgallery.html)
+[Contact-Us-Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmohammed-esmail.github.io%2Fassignment2%2Fcontact.html)
+
+## 5. Conclusion
 I started the module with little knowledge of HTML, Javascript and CSS. By completing the first assignment and researching websites that are currently available with contrasting counterparts, I have improved my knowledge and understanding vastly. Therefore, using this research I aquired I have implemented a website using such techniques. I chose not to use a framework as this would deter my knowledge and understanding, rather it would be counter intuitive. The lectures/labs have been of great help and I will be aiming to take my knowledge further in my future career.
 
-## 5. References
+## 6. References
 ##### 6.1. Frameworks/Api's
 - [jQuery](https://jquery.com/) - used to implement smooth scrolling effects.
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)- used to create the location map on the contact page.
