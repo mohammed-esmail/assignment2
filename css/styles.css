@@ -153,8 +153,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .button-dark:hover {
-    color: skyblue;
-    background-color: rgba(70, 70, 70, 0.9);
+    background-color: #e25714;
+    /*background-color: rgba(70, 70, 70, 0.9);*/
 }
 
 .nav-bar {
@@ -193,7 +193,7 @@ a:link, a:visited, a:hover, a:active {
 
 .menu li a:hover, .menu a:target {
 
-    color: skyblue;
+    color: #e25714;
 }
 
 .nav-menu {
