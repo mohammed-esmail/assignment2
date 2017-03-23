@@ -18,7 +18,7 @@ h1, h2 {
     font-weight: 600;
 }
 
-h1 {
+h1, .hashtag {
     font-size: 36px;
     line-height: 46px;
     color: #e0e0e0;
