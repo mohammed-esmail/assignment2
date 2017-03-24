@@ -8,7 +8,6 @@
     <meta name="author" content="Mohammed Esmail">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link id="pagestyle" rel="stylesheet" href="css/styles.css">
-
     <link rel="shortcut icon" href="css/images/favicon.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -41,14 +40,14 @@
 
 
 <section id="image-content1" class="image-content2">
-<div class="site-hashtag">
-    <h2 class="hashtag">#DeliciousFood</h2>
-    <p class="image-caption">Minimalistic, Healthy &amp; Clean Recipes</p>
-    <p><a class="button-dark" href="#contact-us">Contact Us <i class="fa fa-arrow-down" aria-hidden="true"></i></a>
-</div>
+    <div class="site-hashtag">
+        <h2 class="hashtag">#DeliciousFood</h2>
+        <p class="image-caption">Minimalistic, Healthy &amp; Clean Recipes</p>
+        <p><a class="button-dark" href="#contact-us">Contact Us <i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+    </div>
 </section>
 
-
+<!--flex grid start-->
 <div class="container">
 
     <div class="grid">
@@ -59,16 +58,14 @@
             </p>
 
             <p class="contact">
-                We are also taking registrations for our cooking master class, please enter
-                your details and we will be in touch with a welcome pack.
+                We are also taking registrations for our cooking master class, please enter your details and we will be in touch with a welcome pack.
             </p>
             <p class="contact">
-                If you are registered on our cooking masterclass course, you can find our location
-                using google maps to attend your class.
+                If you are registered on our cooking masterclass course, you can find our location using google maps to attend your class.
             </p>
         </div>
 
-
+        <!--contact form start-->
         <div class="cell">
             <h1 class="contact-us">Contact us</h1>
             <form name="form" class="container-contact" id="contact-modal" onsubmit="return validateForm()">
@@ -80,42 +77,56 @@
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
                 <label for="Email">Email:</label>
-                <input type="text" name="email" id="Email" placeholder="Your email.."/>
+                <input type="text" name="email" id="Email" placeholder="Your email.." />
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Your message"></textarea>
 
                 <input type="submit" value="Submit">
-
             </form>
         </div>
-
+        <!--contact form end -->
+        <!--google maps start -->
         <div class="cell">
             <h1 class="contact-us">Find us</h1>
             <div id="map"></div>
         </div>
+        <!--google maps end -->
 
     </div>
 </div>
+<!--third row flex end-->
 
 <footer class="footer-social-icons">
 
     <h3>Follow us on</h3>
     <ul class="social-icons">
-        <li><a href="" class="social-icon"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-rss" aria-hidden="true"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-        <li><a class onclick="swapStyle('css/styles2.css')" id="access"><i class="fa fa-low-vision" aria-hidden="true"></i></a></li>
+        <li>
+            <a href="" class="social-icon"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="" class="social-icon"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="" class="social-icon"> <i class="fa fa-rss" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="" class="social-icon"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="" class="social-icon"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="" class="social-icon"> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </li>
+        <li><a class onclick="swapStyle('css/styles2.css')" id="access"><i class="fa fa-low-vision"
+                                                                           aria-hidden="true"></i></a></li>
     </ul>
 </footer>
 
 
 <script src="js/javascript.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKNenyAAcludfVLyjbWolbAos8L5sD3Jo&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKNenyAAcludfVLyjbWolbAos8L5sD3Jo&callback=initMap"></script>
 <script src="https://use.fontawesome.com/ed2ca076ee.js"></script>
 
 

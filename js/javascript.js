@@ -1,3 +1,5 @@
+
+// modal box jscript
 (function () {
 
     // Get the modal
@@ -109,7 +111,9 @@
 
 }());
 
+// end
 
+// smooth scrolling effect
 $(document).ready(function () {
 
     $(".button-dark").on('click', function (event) {
@@ -133,8 +137,9 @@ $(document).ready(function () {
         }
     });
 });
+// end
 
-
+// contact form validation
 function validateForm() {
 
     var firstName = document.forms["form"]["fname"].value;
@@ -168,8 +173,9 @@ function validateForm() {
 
     }
 }
+// end
 
-
+//google maps api
 function initMap() {
     var Ll = {lat: 52.629192, lng: -1.140291};
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -181,7 +187,10 @@ function initMap() {
         map: map
     });
 }
+//end
 
+//stype swapper
 function swapStyle(sheet){
     document.getElementById('pagestyle').setAttribute('href', sheet);
 }
+//end
